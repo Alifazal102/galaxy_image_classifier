@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Keep locally (do not push): images for training, testing, and model improvement
+data/training_images/
+data/test_images/
+data/training_images_downsized/
+data/test_images_downsized/
+*.zip
